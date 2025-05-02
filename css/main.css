@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+:root{
+    /*=============== color ==============  */
+
+    --pallete-1: #3E3c6E;
+    --pallete-2: #FE9798;
+    --pallete-3: #FEAE97;
+    --pallete-4: #F6E8DF;
+    --pallete-5: #023336;
+    --pallete-6: #4da674;
+    --pallete-7: #C1E6BA;
+    --pallete-8: #EAF8E7;
+    --pallete-9: #293855;
+    --pallete-10: #4165D5;
+    --pallete-11: #F1AC20;
+    --pallete-12: #c3e8c9;
+    --pallete-13: #252525;
+    --pallete-14: #61CBFF;
+    --pallete-15: #A56ABD;
+    --pallete-16: #E95354;
+    --pallete-17: #50ADBF;
+    --pallete-18: #19384A;
+    --pallete-19: #FDDA76;
+    --pallete-20: #1B1B1B;
+    --pallete-21: #77ABB6;
+    --pallete-22: #F8B097;
+    --pallete-23: #3FC495;
+    --pallete-24: #F9CD6A;
+    --pallete-25: #4840A3;
+    --pallete-26: #9CBBFC;
+    --pallete-27: #D8EFF7;
+    --white: #fff;
+    --black: #000;
+
+
+    /*=============== fontsize ==============  */
+    --text-sm: 1.2rem;
+    --text-base: 1.6rem;
+    --text-paragraph:clamp(1.5em,2vw, 1.5em);;
+    --text-h5: 2.4rem;
+    --text-h4: 3.2rem;
+    --text-h3:  4.0rem;
+    --text-h2: 2.8rem;
+    --text-h1: clamp(3em, 5vw, 5em);;
+    
+    /*=============== fontweight ==============  */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /*=============== line-height ==============  */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+
+    /*=============== line-spacing ==============  */
+    --letter-spacing-tight: -2px
+    
+    /*=============== font-family ==============  */
+    --font-family: "Poppins", serif;
+    --font-family2: "Agu Disploy", serif;
+}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+      }
+      
+      html{
+        font-size: 62.5%;
+        
+      }
+      body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        
+      }
+      .container{
+        max-width: 90%;
+        margin: inline;
+      }
+      nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-inline: auto;
+        position: static;
+        right: 0;
+        top: 0;
+        left: 0;
+        z-index: 99;
+      }
+      
+     h2{
+        margin-right: auto;
+        font-size: var(--text-h2);
+        color: var(--pallete-18);
+      }
+      a{
+        font-size: var(--text-paragraph);
+        color: var(--pallete-18);
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 500;
+        transition: .5s ease-in-out;
+      }
+      .letters{
+       
+        color: var(--pallete-13);
+        
+      }
+      .hero-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        font-size: 7.8rem;
+        flex-direction: column;
+
+      }
+      h1{
+        position: relative;
+        
+
+      }
+      h1::before{
+        content: 'My';
+        position: absolute;
+        font-size: 8.0rem;
+        font-weight: 800;
+        color:var(--pallete-18);
+        top: -10px;
+      }
+      .hero-section p {
+        padding-left: 200px;
+        font-size: 2.4rem;
+        margin-top: -20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+      }
+      nav a{
+        transition: 0.75s ease-in-out;
+      }
+      nav a:hover{
+       transform: rotateX(360deg);
+       background-color: #4840A3;
+       color: var(--white);
+       border: none;
+       
+      }
+      footer{
+        
+        display: flex;
+       
+        
+        margin-inline: auto;
+        max-width: 90%;
+    
+      }
+      .icons-con{
+        display: flex;
+        justify-content: start;
+        
+       
+
+      }
+   
+
+    .col2{
+        width: 90%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        transition: .75s ease-in-out;
+        margin-inline: auto;
+    }
+    .links a::hover{
+       color: #4840A3;
+        
+    }
+   
