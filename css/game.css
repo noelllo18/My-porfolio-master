@@ -59,13 +59,14 @@ html{
    
 }
 .move-button{
-    height: 50px;
+    height: 60px;
     max-width: 90%;
     margin: 0 auto;
     border-radius: 50%;
     background-color: transparent;
+    
    
-    box-shadow: 0 2px 15px#94e90b;
+    box-shadow: 0 2px 15px#10110f;
    
     display:flex;
     justify-content: center;
@@ -84,7 +85,8 @@ html{
 }
 .reset-btn{
     padding: 1.0rem 1.5rem;
-    
+    background-color: rgb(39, 131, 211);
+
     display: flex;
     border: none;
     font-size: 1.4rem;
