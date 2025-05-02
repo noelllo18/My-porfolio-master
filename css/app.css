@@ -390,7 +390,7 @@
         text-decoration: none;
         display: flex;
         position: absolute;
-        left: 75%;
+        left: 74%;
         bottom: 6%;
         font-weight: var(--font-weight-bold);
       }
