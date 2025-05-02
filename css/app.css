@@ -476,16 +476,17 @@
         color: var(--black);
         cursor: text;
       }
-      button{
-        display: inline-flex;
+      .btn-submit{
+        display: flex;
         width: 100%;
-        text-align: center;
-        padding: 1.0rem 1.5rem;
+        align-items: center;
+        padding: 1.0rem 2.5rem;
         font-size: var(--text-paragraph);
         background-color: var(--pallete-10);
         color: var(--white);
         border: none;
         border-radius: 8px;
+        cursor: pointer;
       }
       button::hover{
         background-color: #00ffff;

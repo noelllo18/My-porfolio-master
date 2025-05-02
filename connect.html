@@ -27,9 +27,9 @@
                 <label for="name" >Name:</label>
                 <input type="text" placeholder="Full name">
                 <label for="email" >Email:</label>
-                <input type="text" placeholder="Email" errormessage="user@gmail.com">
+                <input type="text" aria-errormessage="Please enter email" placeholder="Email" errormessage="user@gmail.com">
                 <textarea  name="message" placeholder="message here.." id=""></textarea>
-                <button>send message</button>
+                <button class="btn-submit" type="submit" onclick="alert('Message sucessfully sent!')">send message</button>
             </form>
      </div>
      
